@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Wfd</title>
+  <title>What's for Dinner?</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js" %>
   <%= csrf_meta_tags %>
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Raleway:100|Pacifico" rel="stylesheet" type="text/css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
-
-<%= yield %>
-
+  <%= yield %>
 </body>
 </html>

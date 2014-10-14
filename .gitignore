@@ -19,3 +19,6 @@
 .idea
 .irbrc
 
+# Ignore secrets
+config/secrets.yml
+config/initializers/yelp.rb

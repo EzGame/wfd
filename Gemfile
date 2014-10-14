@@ -10,7 +10,7 @@ gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+# gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
@@ -28,6 +28,11 @@ gem 'spring',        group: :development
 
 # Json
 gem 'json', '~> 1.8.1'
+# Yelp
+gem 'yelp'
+# SimpleOAuth
+gem 'simple_oauth', '~> 0.2.0'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
