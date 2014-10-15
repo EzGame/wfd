@@ -21,4 +21,4 @@
 
 # Ignore secrets
 config/secrets.yml
-config/initializers/yelp.rb
+#config/initializers/yelp.rb
